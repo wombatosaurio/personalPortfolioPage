@@ -1,0 +1,161 @@
+/* Fonts */ 
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lora:ital@0;1&family=Pacifico&family=Passion+One&family=Pattaya&display=swap');
+/* General Styling */
+* {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: Lora;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #ffffff;
+opacity: 1;
+background-size: 30px 30px;
+background-image:  repeating-linear-gradient(to right, #E2B4BD, #E2B4BD 1.5px, #ffffff 1.5px, #ffffff);
+}
+
+/* Navbar */
+.navbar {
+    background-color: #9B6A6C !important;
+    width: 100%;
+}
+
+/* Welcome Section */
+#welcome-section {
+    margin-top: 5%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.name {
+    font-family: Pattaya;
+    color: #9B6A6C;
+    font-size: 65px;
+}
+
+.ocuppation {
+    font-family: 'Bree Serif';
+    font-size: 20px;
+    color: #424B54;
+    font-size: 30px;
+}
+
+/* Projects Section */
+
+#projects {
+    background-color: #93A8AC;
+    margin-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 0%;
+    padding-bottom: 5%;
+}
+
+h2 {
+    font-family: 'Bree Serif';
+    font-size: 50px;
+    color:#ffffff;
+    margin: 0;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+.button {
+    margin-top: 2rem;
+    background-color: #9B6A6C;
+    border-color: #9B6A6C;
+
+}
+
+.button:hover {
+    background-color: #cea3ac;
+    border-color: #cea3ac;
+}
+
+#project-cards {
+    padding-top: 3%;
+}
+
+/* Contact Section */
+
+#contact {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: #424B54;
+}
+
+#contact-text {
+    font-size: 50px;
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+#redes {
+    display: flex;
+    justify-content: center;
+}
+
+#redes li {
+    display: inline-block;
+    background-color: #9B6A6C;
+    padding: 5px;
+    width: 60px;
+    height: 60px;
+    margin: 0 30px;
+    cursor: pointer; 
+}
+
+.redes-icon {
+    color: #ffffff;
+    padding: 2px;
+    text-align: center;
+    font-size: 40px;
+}
+  
+.redes-icon:hover {
+    background-color: #cea3ac !important;
+    border: 1px solid #cea3ac !important;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 992px) {
+
+    #projects {
+        margin-bottom: 5rem;
+        padding-left: 5%;
+        padding-right: 0%;
+    }
+
+    #project-cards {
+        text-align: center;
+    }
+
+   .project-tile {
+        margin-bottom: 100px;
+        margin-left: 3rem;
+        margin-right: 6rem;
+    }
+} 
+
+@media (max-width: 576px) {
+
+    #projects {
+        margin-bottom: 5rem;
+    }
+
+    #project-cards {
+        text-align: center;
+    }
+
+    .project-tile {
+        margin-bottom: 100px;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+}
