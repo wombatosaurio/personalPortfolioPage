@@ -3,4 +3,4 @@
 <p>
 Sample project for FCC.
 </p>
-<h4>You can find a preview in <a>https://codepen.io/Wombatosaurio/full/jOpyovM</a></h4>
+<h4>You can find a preview in https://codepen.io/Wombatosaurio/full/jOpyovM</h4>
